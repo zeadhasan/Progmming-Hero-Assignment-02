@@ -1,4 +1,7 @@
 /* font-family: 'Open Sans', sans-serif; */
+
+/*======================== header part css start=============================== */
+
 #header {
   margin-top: 50px;
 }
@@ -27,3 +30,10 @@ nav li a {
   padding-left: 1000px;
   margin-top: -60px;
 }
+/*======================== header part css end=============================== */
+
+/*======================== banner part css start=============================== */
+.first-banner {
+  margin-top: 50px;
+}
+/*======================== banner part css end=============================== */
