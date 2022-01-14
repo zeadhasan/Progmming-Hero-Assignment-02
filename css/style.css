@@ -1,0 +1,29 @@
+/* font-family: 'Open Sans', sans-serif; */
+#header {
+  margin-top: 50px;
+}
+.nav-title h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: #000;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 15px;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+.main-nav {
+  padding-left: 1000px;
+  margin-top: -60px;
+}
