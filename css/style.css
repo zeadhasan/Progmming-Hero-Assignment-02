@@ -209,6 +209,39 @@ section {
 }
 /*======================== Featured part css end=============================== */
 
-/*======================== Featured part css end=============================== */
-
-/*======================== Featured part css end=============================== */
+/*======================== upcoming part css end=============================== */
+.upcoming-title {
+  margin-left: 400px;
+  margin-bottom: 20px;
+}
+.upcoming-title h4 {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #000;
+}
+.upcoming-items {
+  margin-left: 90px;
+  background-color: wheat;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+.upcoming-items img {
+  width: 100%;
+}
+.upcoming-items h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #000;
+}
+.upcoming-items h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+/*======================== upcoming part css end=============================== */
