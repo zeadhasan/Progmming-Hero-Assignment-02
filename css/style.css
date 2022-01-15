@@ -288,3 +288,49 @@ section {
   border-radius: 50%;
 }
 /*======================== footer part css end=============================== */
+
+/*================================ Media Queries ================================*/
+
+/*==============================  Moblie Devices================================= */
+@media only screen and (min-width: 600px) {
+  .nav-title h2 {
+    font-size: 40px;
+    margin-left: 60px;
+    text-transform: capitalize;
+  }
+  .first-banner {
+    margin-top: 60px;
+  }
+  .banner h1 {
+    font-size: 20px;
+  }
+  .banner p {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  .banner_button {
+    font-size: 14px;
+  }
+  .banner img {
+    width: 110%;
+    margin-left: -25px;
+  }
+  #main-logo {
+    margin-top: 50px;
+  }
+  .logo-class {
+    margin-left: 10px;
+  }
+  .logo-class img {
+    height: 23px;
+  }
+  #populer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .collection-title h3 {
+    margin-left: 130px;
+    font-size: 40px;
+    margin-bottom: -10px;
+  }
+}
