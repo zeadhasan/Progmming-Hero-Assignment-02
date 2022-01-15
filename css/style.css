@@ -149,7 +149,7 @@ section {
   font-size: 20px;
   color: black;
   text-decoration: none;
-  margin-left: 1050px;
+  margin-left: 650px;
   transition: 2s;
 }
 .collection_button:hover {
@@ -159,3 +159,56 @@ section {
   border-radius: 5px;
 }
 /*======================== Collection part css end=============================== */
+
+/*======================== Featured part css start=============================== */
+.featured {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.featured-items {
+  width: 100%;
+  margin-left: 50px;
+}
+.featured-text {
+  margin-left: 100px;
+}
+.featured-text h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.featured-text p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.featured-items img {
+  width: 100%;
+  border-radius: 25px;
+}
+.featured_button {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  transition: 2s;
+}
+.featured_button:hover {
+  color: whitesmoke;
+  padding: 10px 40px;
+  background-color: #e02c6d;
+  border-radius: 5px;
+}
+/*======================== Featured part css end=============================== */
+
+/*======================== Featured part css end=============================== */
+
+/*======================== Featured part css end=============================== */
