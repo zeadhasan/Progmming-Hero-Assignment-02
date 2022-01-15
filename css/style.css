@@ -245,3 +245,46 @@ section {
   margin-bottom: 10px;
 }
 /*======================== upcoming part css end=============================== */
+
+/*======================== footer part css end=============================== */
+#footer {
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #0b0827;
+}
+.footer-item h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+  margin-left: 600px;
+}
+.footer-item h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  margin-left: 565px;
+  margin-top: -25px;
+}
+.footer-item p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: white;
+  margin-top: -25px;
+  margin-left: 660px;
+  margin-top: -40px;
+}
+.footer-icon {
+  margin-left: 655px;
+  color: #fff;
+}
+.footer-icon i {
+  font-size: 15px;
+  padding: 10px 10px;
+  background-color: rgba(209, 171, 171, 0.74);
+  border-radius: 50%;
+}
+/*======================== footer part css end=============================== */
