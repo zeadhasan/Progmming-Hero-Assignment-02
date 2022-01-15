@@ -17,7 +17,7 @@ nav ul {
 }
 nav li {
   list-style: none;
-  margin-right: 15px;
+  margin-right: 25px;
 }
 nav li a {
   text-decoration: none;
@@ -69,10 +69,10 @@ section {
   font-size: 20px;
   color: black;
   text-decoration: none;
+  transition: 2s;
 }
 .banner_button:hover {
   color: whitesmoke;
-  transition: 2s;
   padding: 10px 40px;
   background-color: #e02c6d;
   border-radius: 5px;
@@ -95,3 +95,67 @@ section {
   height: 40px;
 }
 /*======================== logos part css end=============================== */
+
+/*======================== Collection part css end=============================== */
+#populer {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.collection-title h3 {
+  margin-left: 500px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.collection {
+  margin: 50px 210px;
+}
+.collection-items {
+  margin-left: 35px;
+  background-color: wheat;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+.collection-items h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.collection-items h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: -15px;
+}
+.icon {
+  margin-top: -30px;
+  transition: 2s;
+}
+.icon:hover {
+  color: #e02c6d;
+}
+.collection-items p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.collection_button {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin-left: 1050px;
+  transition: 2s;
+}
+.collection_button:hover {
+  color: whitesmoke;
+  padding: 10px 40px;
+  background-color: #e02c6d;
+  border-radius: 5px;
+}
+/*======================== Collection part css end=============================== */
