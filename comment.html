@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Give Your Comment Here</h1>
+    <section>
+        <div id="comment-container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia amet aperiam similique unde? Laudantium earum similique, aliquid nisi consequuntur, expedita facere nostrum quam omnis officiis sapiente amet ab. Tempore culpa assumenda modi voluptas. Officia debitis ea molestias ratione doloribus incidunt, eveniet explicabo ut, et maxime suscipit sed, ad repellat! Aperiam.</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, corrupti error, eaque labore perferendis unde rem officiis voluptates, minus quo iusto dolor sint quidem. Quam vitae a quos deleniti temporibus porro culpa blanditiis cupiditate, accusantium possimus provident expedita debitis repudiandae veritatis neque at perferendis sit explicabo similique. Voluptatem, doloribus veritatis.</p>
+        </div>
+        <div>
+            <textarea name="" id="new-comment" cols="60" rows="4"></textarea>
+            <br>
+            <button id="submit-comment">Post</button>
+        </div>
+    </section>
+    <script>
+       // 1. add button event hendler
+        document.getElementById('submit-comment').addEventListener('click', function(){
+            // 2. get user comment
+           const commentBox = document.getElementById('new-comment');
+        //    const userComment = commentBox.value;
+
+        //3. create comment paragraph
+        const newComment = document.createElement('p');
+        newComment.innertext = commentBox.value;
+
+        //4. append the comment
+        const commentContainer = document.getElementById('comment-container');
+         commentContainer.appendChild(newComment);
+
+         //clean the comment box
+         commentBox.value = '';
+        });
+    </script>
+</body>
+</html>
